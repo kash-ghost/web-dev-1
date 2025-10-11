@@ -1,1 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+main {
+    padding: 20px;
+}
 
+section {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+}
+#welcome {
+    text-align: center;
+}
+#about {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #003366;
+    margin-bottom: 10px;
+}
+#project ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+#skills table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+#skills th, #skills td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #000000;
+}
+#skills th {
+    background-color: #000000;
+    color: white;
+}
+#skills td {
+    background-color: #f0f4f8;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+form div {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+hr {
+    border: none;
+    border-top: 2px solid #cccccc;
+    margin: 30px 0;
+}
