@@ -45,6 +45,3 @@ Modify styles.css to personalize colors, fonts, and layout
 
 Author- Pushkar Saroha 
         BCA Cybersecurity
-
-Your Name
-[Your Portfolio Link or GitHub Profile]
